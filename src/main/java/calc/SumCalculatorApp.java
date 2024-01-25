@@ -8,7 +8,7 @@ public class SumCalculatorApp {
         SumCalculator sumCalculator = new SumCalculator();
 
         try {
-            System.out.print("Enter a positive integer: ");
+            System.out.print("Enter a positive number: ");
             int input = scanner.nextInt();
             int result = sumCalculator.sum(input);
             System.out.println("Result = " + result);
